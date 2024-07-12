@@ -3,36 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template HTML CSS JS</title>
+        <title>20 LC JS DOM</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
-        <!-- header -->
-        <header>
-            <div class="container">
-                HEADER
-            </div>
-        </header>
-        <!-- /header -->
-
         <!-- main -->
         <main>
             <div class="container">
-                MAIN
+                <div>
+                    <h1 id="main-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia aut assumenda impedit deleniti officia quidem fuga quo voluptatibus eveniet?
+                    </h1>
+
+                    <button>
+                        Cliccami
+                    </button>
+
+                    <div id="useless-container"></div>
+                </div>
+
+                <form>
+                    <div>
+                        <label for="name">
+                            Nome
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Inserisci il tuo nome..."
+                            minlength="3"
+                            maxlength="100"
+                            required>
+                    </div>
+
+                    <div>
+                        <label for="age">
+                            Età
+                        </label>
+                        <input
+                            type="number"
+                            id="age"
+                            name="age"
+                            placeholder="Inserisci la tua età..."
+                            min="0"
+                            max="150"
+                            required>
+                    </div>
+
+                    <div>
+                        <button id="submit-button" type="submit">
+                            Invia
+                        </button>
+                    </div>
+                </form>
             </div>
         </main>
         <!-- /main -->
-
-        <!-- footer -->
-        <footer>
-            <div class="container">
-                FOOTER
-            </div>
-        </footer>
-        <!-- /footer -->
 
         <!-- JS -->
         <script type="text/javascript" src="js/scripts.js"></script>

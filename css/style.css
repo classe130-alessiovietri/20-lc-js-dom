@@ -18,3 +18,15 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.text-lightcoral {
+    color: lightcoral
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bordered {
+    border: 10px dashed red;
+}
